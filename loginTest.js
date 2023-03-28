@@ -8,7 +8,7 @@ async function runTest() {
     }
   });
 
-  await browser.url('/sample-login-form/index.html');
+  await browser.url('https://benedicklat.github.io/samples/');
 
   const username = await browser.$('#username');
   await username.setValue('myusername');
